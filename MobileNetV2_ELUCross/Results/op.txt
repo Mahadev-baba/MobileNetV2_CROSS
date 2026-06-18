@@ -1,0 +1,106 @@
+
+C:\Users\HP\Desktop\Results\MobileNetV2_ELUCross>python MobileNetV2_ELUCross.py
+Device: cuda
+GPU: NVIDIA RTX 4500 Ada Generation
+
+140K (Testing on 200K) Epoch 1/10
+Train Loss: 0.0704 | Train Acc : 0.9711
+Val Loss  : 0.0198 | Val Acc   : 0.9932
+
+140K (Testing on 200K) Epoch 2/10
+Train Loss: 0.0124 | Train Acc : 0.9958
+Val Loss  : 0.0130 | Val Acc   : 0.9957
+
+140K (Testing on 200K) Epoch 3/10
+Train Loss: 0.0069 | Train Acc : 0.9973
+Val Loss  : 0.0175 | Val Acc   : 0.9941
+
+140K (Testing on 200K) Epoch 4/10
+Train Loss: 0.0061 | Train Acc : 0.9977
+Val Loss  : 0.0135 | Val Acc   : 0.9958
+
+140K (Testing on 200K) Epoch 5/10
+Train Loss: 0.0048 | Train Acc : 0.9982
+Val Loss  : 0.0136 | Val Acc   : 0.9961
+
+140K (Testing on 200K) Epoch 6/10
+Train Loss: 0.0040 | Train Acc : 0.9985
+Val Loss  : 0.0146 | Val Acc   : 0.9958
+
+140K (Testing on 200K) Epoch 7/10
+Train Loss: 0.0041 | Train Acc : 0.9983
+Val Loss  : 0.0139 | Val Acc   : 0.9961
+
+140K (Testing on 200K) Epoch 8/10
+Train Loss: 0.0034 | Train Acc : 0.9987
+Val Loss  : 0.0068 | Val Acc   : 0.9978
+
+140K (Testing on 200K) Epoch 9/10
+Train Loss: 0.0027 | Train Acc : 0.9990
+Val Loss  : 0.0098 | Val Acc   : 0.9972
+
+140K (Testing on 200K) Epoch 10/10
+Train Loss: 0.0030 | Train Acc : 0.9988
+Val Loss  : 0.0066 | Val Acc   : 0.9980
+Evaluating Model 140K on 200K Test Set...
+
+200K (Testing on 140K) Epoch 1/10
+Train Loss: 0.2243 | Train Acc : 0.8865
+Val Loss  : 0.1389 | Val Acc   : 0.9280
+
+200K (Testing on 140K) Epoch 2/10
+Train Loss: 0.1129 | Train Acc : 0.9413
+Val Loss  : 0.1754 | Val Acc   : 0.9204
+
+200K (Testing on 140K) Epoch 3/10
+Train Loss: 0.0924 | Train Acc : 0.9531
+Val Loss  : 0.1162 | Val Acc   : 0.9439
+
+200K (Testing on 140K) Epoch 4/10
+Train Loss: 0.0788 | Train Acc : 0.9618
+Val Loss  : 0.1110 | Val Acc   : 0.9486
+
+200K (Testing on 140K) Epoch 5/10
+Train Loss: 0.0678 | Train Acc : 0.9685
+Val Loss  : 0.1004 | Val Acc   : 0.9554
+
+200K (Testing on 140K) Epoch 6/10
+Train Loss: 0.0587 | Train Acc : 0.9736
+Val Loss  : 0.1016 | Val Acc   : 0.9586
+
+200K (Testing on 140K) Epoch 7/10
+Train Loss: 0.0494 | Train Acc : 0.9788
+Val Loss  : 0.0908 | Val Acc   : 0.9628
+
+200K (Testing on 140K) Epoch 8/10
+Train Loss: 0.0430 | Train Acc : 0.9820
+Val Loss  : 0.0998 | Val Acc   : 0.9612
+
+200K (Testing on 140K) Epoch 9/10
+Train Loss: 0.0368 | Train Acc : 0.9851
+Val Loss  : 0.1070 | Val Acc   : 0.9583
+
+200K (Testing on 140K) Epoch 10/10
+Train Loss: 0.0315 | Train Acc : 0.9874
+Val Loss  : 0.0943 | Val Acc   : 0.9663
+Evaluating Model 200K on 140K Test Set...
+
+--- Final Cross-Evaluation Summary Table ---
+            Metric  140K Train (Tested on 200K)  200K Train (Tested on 140K)
+0         Accuracy                     0.632800                     0.950600
+1        Precision                     0.595995                     0.910233
+2           Recall                     0.824500                     0.999800
+3               F1                     0.691869                     0.952917
+4              AUC                     0.610784                     0.999614
+5      Specificity                     0.441100                     0.901400
+6      Sensitivity                     0.824500                     0.999800
+7              MCC                     0.287576                     0.905595
+8            Kappa                     0.265600                     0.901200
+9    Training_Time                  1200.356507                  1447.616878
+10  Inference_Time                    33.547218                    24.181868
+11             FPS                  1192.349232                   827.065979
+
+Generating Performance Graphs...
+All cross-evaluation figures successfully rendered and saved under 'Results/'.
+
+C:\Users\HP\Desktop\Results\MobileNetV2_ELUCross>
